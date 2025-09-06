@@ -1,0 +1,71 @@
+:root {
+    --main-color: antiquewhite;
+    --secondary-color: rgb(221, 207, 190);
+    --third-color: black;
+
+    --main-background-color: antiquewhite;
+    --secondary-background-color: black;
+    --third-background-color: rgb(34, 34, 34);
+    --fourth-background-color: rgb(207, 181, 150);
+
+    --option-hover: rgb(95, 93, 91);
+}
+.dark {
+    --main-color: black;
+    --secondary-color: rgb(34, 34, 34);
+    --third-color: antiquewhite;
+
+    --main-background-color: black;
+    --secondary-background-color: rgb(221, 207, 190);
+    --third-background-color: antiquewhite;
+    --fourth-background-color: rgb(68, 61, 52);
+
+    --option-hover: rgb(190, 182, 173);
+}
+
+body {
+    background-color: var(--main-background-color);
+}
+
+.moviesContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 15px 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font: inherit;
+}
+
+button {
+    color: inherit;
+    cursor: pointer;
+    font: inherit;
+}
+
+.active {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+.colorW1 {
+    color: var(--main-color);
+}
+
+.colorW2 {
+    color: var(--secondary-color);
+}
+
+.colorN1 {
+    color: var(--third-color);
+}
+
+.backGrColW1 {
+    background-color: var(--secondary-background-color);
+}
+
+.backGrColW2 {
+    background-color: var(--third-background-color);
+}

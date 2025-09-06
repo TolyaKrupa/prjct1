@@ -1,0 +1,28 @@
+.loaderWrapper {
+  position: fixed;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.loader {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border-top: 4px dotted var(--third-color);
+  border-right: 4px dotted transparent;
+  animation: rotation 3s linear infinite;
+  margin: auto;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

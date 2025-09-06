@@ -1,0 +1,19 @@
+.toggleBtn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  background-color: var(--third-background-color);
+  color: var(--secondary-color);
+
+  padding: 8px 16px;
+  border: 2px solid;
+  border-radius: 20px;
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+.toggleBtn:hover {
+  background-color: var(--secondary-background-color);
+}

@@ -1,0 +1,23 @@
+.inputWrapper {
+    border-left: 1px solid;
+    display: flex;
+    padding: 4px;
+
+}
+
+input {
+    border: none;
+    background-color: transparent;
+    margin-left: 2px;
+    width: 97%;
+    min-width: 300px;
+    color:inherit;
+}
+
+input:focus {
+    outline: none;
+}
+
+.cross {
+    cursor: pointer;
+}
